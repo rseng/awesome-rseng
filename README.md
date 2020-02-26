@@ -17,6 +17,7 @@ If you want to get involved with science and research software engineering, this
  - [Overview](#overview)
  - [Astrophysics](#astrophysics)
  - [Genomics](#genomics)
+ - [High Performance Computing](#high-performance-computing)
  - [Psychology](#psychology)
  - [Workflows](#workflows)
  - [Contributing](#contributing)
@@ -37,6 +38,10 @@ and then subtopics. Please feel free to suggest a new project, or update the org
 ## Genomics
 
  - [The ENCODE Data Consortium](https://github.com/encode-dcc) or "Encode DCC" serving the Encode Data Portal.
+
+## High Performance Computing
+
+ - [CEED](https://github.com/CEED): ECP Co-Design Center for Efficient Exascale Discretizations (CEED)
 
 ## Psychology
 

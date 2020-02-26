@@ -23,6 +23,7 @@ If you want to get involved with science and research software engineering, this
    - [Academic Labs](#academic-labs) 
    - [National Labs](#national-labs) 
  - [Psychology](#psychology)
+ - [Neuroscience](#neuroscience)
  - [Workflows](#workflows)
  - [Contributing](#contributing)
 
@@ -66,6 +67,12 @@ and then subtopics. Please feel free to suggest a new project, or update the org
 ## Psychology
 
  - [The Experiment Factory](https://github.com/expfactory) tools, containers, and web based experiments
+
+## Neuroscience
+
+ - [nipreps](https://github.com/nipreps) standard workflows for processing a wide
+   variety of neuroimaging (MRI) data.
+- [nipy](https://github.com/nipy) utilities for working with neuroimaging (MRI) data
 
 ## Workflows
 

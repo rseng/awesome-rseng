@@ -20,6 +20,7 @@ If you want to get involved with science and research software engineering, this
  - [High Performance Computing](#high-performance-computing)
  - [Psychology](#psychology)
  - [Workflows](#workflows)
+ - [Institutions](#institutions)
  - [Contributing](#contributing)
 
 
@@ -50,6 +51,10 @@ and then subtopics. Please feel free to suggest a new project, or update the org
 ## Workflows
 
  - [Snakemake](https://github.com/snakemake/) scientific workflow manager written in Python
+ 
+## Institutions
+
+- [Imperial College London](https://github.com/ImperialCollegeLondon/)
 
 ## Contributing
 

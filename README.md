@@ -18,9 +18,9 @@ If you want to get involved with science and research software engineering, this
  - [Astrophysics](#astrophysics)
  - [Genomics](#genomics)
  - [High Performance Computing](#high-performance-computing)
+ - [Institutions](#institutions)
  - [Psychology](#psychology)
  - [Workflows](#workflows)
- - [Institutions](#institutions)
  - [Contributing](#contributing)
 
 
@@ -44,6 +44,10 @@ and then subtopics. Please feel free to suggest a new project, or update the org
 
  - [CEED](https://github.com/CEED): ECP Co-Design Center for Efficient Exascale Discretizations (CEED)
 
+## Institutions
+
+- [Imperial College London](https://github.com/ImperialCollegeLondon/)
+
 ## Psychology
 
  - [The Experiment Factory](https://github.com/expfactory) tools, containers, and web based experiments
@@ -51,10 +55,6 @@ and then subtopics. Please feel free to suggest a new project, or update the org
 ## Workflows
 
  - [Snakemake](https://github.com/snakemake/) scientific workflow manager written in Python
- 
-## Institutions
-
-- [Imperial College London](https://github.com/ImperialCollegeLondon/)
 
 ## Contributing
 

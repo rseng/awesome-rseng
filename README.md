@@ -64,15 +64,15 @@ and then subtopics. Please feel free to suggest a new project, or update the org
  - [SLAC](http://github.com/slaclab) National Accelerator Laboratory
  - [LINAC Coherent Light Source](https://github.com/slac-lcls/) at SLAC for experiments with High Energy Physics, Materials Science, Biologists, etc.
 
-## Psychology
-
- - [The Experiment Factory](https://github.com/expfactory) tools, containers, and web based experiments
-
 ## Neuroscience
 
  - [nipreps](https://github.com/nipreps) standard workflows for processing a wide
    variety of neuroimaging (MRI) data.
-- [nipy](https://github.com/nipy) utilities for working with neuroimaging (MRI) data
+ - [nipy](https://github.com/nipy) utilities for working with neuroimaging (MRI) data
+
+## Psychology
+
+ - [The Experiment Factory](https://github.com/expfactory) tools, containers, and web based experiments
 
 ## Workflows
 

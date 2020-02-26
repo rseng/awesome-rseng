@@ -60,7 +60,6 @@ and then subtopics. Please feel free to suggest a new project, or update the org
  - [Poldrack Lab](https://github.com/poldracklab) at Stanford University focuses on standard
    workflows for processing structural and functional neuroimaging (MRI) data.
 
-
 ### National Labs
 
  - [SLAC](http://github.com/slaclab) National Accelerator Laboratory

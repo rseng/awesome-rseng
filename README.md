@@ -57,6 +57,8 @@ and then subtopics. Please feel free to suggest a new project, or update the org
 ### Academic Labs
 
  - [Nolan Lab](https://github.com/nolanlab) at Stanford University focuses on signaling in the immune system and study of oncogenic process.
+ - [Poldrack Lab](https://github.com/poldracklab) at Stanford University focuses on standard
+   workflows for processing structural and functional neuroimaging (MRI) data.
 
 ### National Labs
 

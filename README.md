@@ -22,7 +22,6 @@ If you want to get involved with science and research software engineering, this
    - [Academic Groups](#academic-groups) 
    - [Academic Labs](#academic-labs) 
    - [National Labs](#national-labs) 
- - [Material Science](#material-science)
  - [Psychology](#psychology)
  - [Workflows](#workflows)
  - [Contributing](#contributing)
@@ -62,10 +61,7 @@ and then subtopics. Please feel free to suggest a new project, or update the org
 ### National Labs
 
  - [SLAC](http://github.com/slaclab) National Accelerator Laboratory
-
-## Material Science
-
- - [LINAC Coherent Light Source](https://github.com/slac-lcls/) at SLAC
+ - [LINAC Coherent Light Source](https://github.com/slac-lcls/) at SLAC for experiments with High Energy Physics, Materials Science, Biologists, etc.
 
 ## Psychology
 
@@ -78,7 +74,9 @@ and then subtopics. Please feel free to suggest a new project, or update the org
 ## Contributing
 
 Please don't hesitate to contribute a new link. To do so, check out the [CONTRIBUTING.md](CONTRIBUTING.md) 
-and then [open a pull request](https://www.github.com/rseng/awesome-opensource-rseng/issues).
+and then [open a pull request](https://www.github.com/rseng/awesome-opensource-rseng/issues). 
+This repository will eventually serve a "Good First Issues" portal, and if you are interested in
+adding a specific repository, for now you can add it to the [repos list](.github/repos.txt).
 
 ## License
 

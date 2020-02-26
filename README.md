@@ -18,6 +18,7 @@ If you want to get involved with science and research software engineering, this
  - [Astrophysics](#astrophysics)
  - [Genomics](#genomics)
  - [High Performance Computing](#high-performance-computing)
+ - [Institutions](#institutions)
  - [Psychology](#psychology)
  - [Workflows](#workflows)
  - [Contributing](#contributing)
@@ -42,6 +43,10 @@ and then subtopics. Please feel free to suggest a new project, or update the org
 ## High Performance Computing
 
  - [CEED](https://github.com/CEED): ECP Co-Design Center for Efficient Exascale Discretizations (CEED)
+
+## Institutions
+
+- [Imperial College London](https://github.com/ImperialCollegeLondon/)
 
 ## Psychology
 

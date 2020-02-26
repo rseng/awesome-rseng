@@ -19,6 +19,10 @@ If you want to get involved with science and research software engineering, this
  - [Genomics](#genomics)
  - [High Performance Computing](#high-performance-computing)
  - [Institutions](#institutions)
+   - [Academic Groups](#academic-groups) 
+   - [Academic Labs](#academic-labs) 
+   - [National Labs](#national-labs) 
+ - [Material Science](#material-science)
  - [Psychology](#psychology)
  - [Workflows](#workflows)
  - [Contributing](#contributing)
@@ -43,10 +47,25 @@ and then subtopics. Please feel free to suggest a new project, or update the org
 ## High Performance Computing
 
  - [CEED](https://github.com/CEED): ECP Co-Design Center for Efficient Exascale Discretizations (CEED)
+ - [spack](https://github.com/spack/) a flexible package manager for multiple versions, configurations, and compilers
 
 ## Institutions
 
+### Academic Groups
+
 - [Imperial College London](https://github.com/ImperialCollegeLondon/)
+
+### Academic Labs
+
+ - [Nolan Lab](https://github.com/nolanlab) at Stanford University focuses on signaling in the immune system and study of oncogenic process.
+
+### National Labs
+
+ - [SLAC](http://github.com/slaclab) National Accelerator Laboratory
+
+## Material Science
+
+ - [LINAC Coherent Light Source](https://github.com/slac-lcls/) at SLAC
 
 ## Psychology
 

@@ -22,8 +22,8 @@ If you want to get involved with science and research software engineering, this
    - [Academic Groups](#academic-groups) 
    - [Academic Labs](#academic-labs) 
    - [National Labs](#national-labs) 
- - [Psychology](#psychology)
  - [Neuroscience](#neuroscience)
+ - [Psychology](#psychology)
  - [Workflows](#workflows)
  - [Contributing](#contributing)
 

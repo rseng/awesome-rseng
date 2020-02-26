@@ -49,6 +49,10 @@ and then subtopics. Please feel free to suggest a new project, or update the org
  - [CEED](https://github.com/CEED): ECP Co-Design Center for Efficient Exascale Discretizations (CEED)
  - [spack](https://github.com/spack/) a flexible package manager for multiple versions, configurations, and compilers
 
+## Scalable Computing
+
+ - [Pangeo](https://github.com/pangeo-data): A community effort for big data geoscience
+
 ## Institutions
 
 ### Academic Groups
@@ -79,6 +83,7 @@ and then subtopics. Please feel free to suggest a new project, or update the org
 ## Workflows
 
  - [Snakemake](https://github.com/snakemake/) scientific workflow manager written in Python
+ 
 
 ## Contributing
 

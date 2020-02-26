@@ -22,6 +22,7 @@ If you want to get involved with science and research software engineering, this
    - [Academic Groups](#academic-groups) 
    - [Academic Labs](#academic-labs) 
    - [National Labs](#national-labs) 
+ - [Neuroscience](#neuroscience)
  - [Psychology](#psychology)
  - [Workflows](#workflows)
  - [Contributing](#contributing)
@@ -64,6 +65,12 @@ and then subtopics. Please feel free to suggest a new project, or update the org
 
  - [SLAC](http://github.com/slaclab) National Accelerator Laboratory
  - [LINAC Coherent Light Source](https://github.com/slac-lcls/) at SLAC for experiments with High Energy Physics, Materials Science, Biologists, etc.
+
+## Neuroscience
+
+ - [nipreps](https://github.com/nipreps) standard workflows for processing a wide
+   variety of neuroimaging (MRI) data.
+ - [nipy](https://github.com/nipy) utilities for working with neuroimaging (MRI) data
 
 ## Psychology
 

@@ -73,10 +73,25 @@ and then subtopics. Please feel free to suggest a new project, or update the org
 
 ## Contributing
 
-Please don't hesitate to contribute a new link. To do so, check out the [CONTRIBUTING.md](CONTRIBUTING.md) 
-and then [open a pull request](https://www.github.com/rseng/awesome-opensource-rseng/issues). 
-This repository will eventually serve a "Good First Issues" portal, and if you are interested in
-adding a specific repository, for now you can add it to the [repos list](.github/repos.txt).
+Please don't hesitate to contribute a new link. To do so, check out the [CONTRIBUTING.md](CONTRIBUTING.md) for details about how to contribute.
+
+### Add Organization to the Awesome List
+The awesome list here is intended for organizations.
+You can edit the README.md file here and add your link in the correct spot. If 
+a category is missing, please go ahead and add it, and make sure that all
+additions are in alphabetical order. Then [open a pull request](https://www.github.com/rseng/awesome-opensource-rseng/issues). 
+
+### Add Repository
+
+This repository also serves a "Good First Issues" portal, primarily for specific
+repos that belong to the organizations listed above. If you are interested in
+adding a specific repository, add it to the [repos list](.github/repos.txt).
+You can add comma separated tags that you want to use as categories or topics
+to identify the repository. Here is an example:
+
+```
+https://github.com/singularityhub/sregistry containers,singularity
+```
 
 ## License
 

@@ -17,6 +17,7 @@ If you want to get involved with science and research software engineering, this
  - [Overview](#overview)
  - [Astrophysics](#astrophysics)
  - [Genomics](#genomics)
+ - [Geoscience](#geoscience)
  - [High Performance Computing](#high-performance-computing)
  - [Institutions](#institutions)
    - [Academic Groups](#academic-groups) 
@@ -43,6 +44,10 @@ and then subtopics. Please feel free to suggest a new project, or update the org
 ## Genomics
 
  - [The ENCODE Data Consortium](https://github.com/encode-dcc) or "Encode DCC" serving the Encode Data Portal.
+
+## Geoscience
+
+ - [Pangeo](https://github.com/pangeo-data): A community effort for big data geoscience
 
 ## High Performance Computing
 
@@ -79,6 +84,7 @@ and then subtopics. Please feel free to suggest a new project, or update the org
 ## Workflows
 
  - [Snakemake](https://github.com/snakemake/) scientific workflow manager written in Python
+ 
 
 ## Contributing
 

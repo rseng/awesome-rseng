@@ -17,6 +17,7 @@ If you want to get involved with science and research software engineering, this
  - [Overview](#overview)
  - [Astrophysics](#astrophysics)
  - [Genomics](#genomics)
+ - [Geoscience](#geoscience)
  - [High Performance Computing](#high-performance-computing)
  - [Institutions](#institutions)
    - [Academic Groups](#academic-groups) 
@@ -44,14 +45,14 @@ and then subtopics. Please feel free to suggest a new project, or update the org
 
  - [The ENCODE Data Consortium](https://github.com/encode-dcc) or "Encode DCC" serving the Encode Data Portal.
 
+## Geoscience
+
+ - [Pangeo](https://github.com/pangeo-data): A community effort for big data geoscience
+
 ## High Performance Computing
 
  - [CEED](https://github.com/CEED): ECP Co-Design Center for Efficient Exascale Discretizations (CEED)
  - [spack](https://github.com/spack/) a flexible package manager for multiple versions, configurations, and compilers
-
-## Scalable Computing
-
- - [Pangeo](https://github.com/pangeo-data): A community effort for big data geoscience
 
 ## Institutions
 

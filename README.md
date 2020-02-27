@@ -10,7 +10,7 @@
 
 > A curated list of GitHub organizations that primarily serve open source or academic software projects.
 
-If you want to get involved with science and research software engineering, this is a good place to start!
+If you want to get involved with science and research software engineering, this is a good place to start! If you want to use the GitHub action, [see below](#github-action).
 
 ## Contents
 
@@ -24,7 +24,9 @@ If you want to get involved with science and research software engineering, this
    - [National Labs](#national-labs) 
  - [Neuroscience](#neuroscience)
  - [Psychology](#psychology)
- - [Workflows](#workflows)
+ - [Reproducible Science](#reproducible-science)
+   - [Containers](#containers)
+   - [Workflows](#workflows)
  - [Contributing](#contributing)
 
 
@@ -76,6 +78,13 @@ and then subtopics. Please feel free to suggest a new project, or update the org
 
  - [The Experiment Factory](https://github.com/expfactory) tools, containers, and web based experiments
 
+## Reproducible Science
+
+## Containers
+
+ - [singularityhub](https://github.com/singularityhub/) open source tools to support Singularity containers.
+
+
 ## Workflows
 
  - [Snakemake](https://github.com/snakemake/) scientific workflow manager written in Python
@@ -101,6 +110,48 @@ to identify the repository. Here is an example:
 ```
 https://github.com/singularityhub/sregistry containers,singularity
 ```
+
+## GitHub Action
+
+The repository serves it's own GitHub action to generate a web interface
+each night with an updated set of issues. This means that:
+
+ - the interface is created under docs/
+ - issues are populated in docs/_issues
+ - the site is served via Jekyll
+
+This means that you can use the action in your workflows too.
+
+## Inputs
+
+### `repos-file`
+
+**Optional** The path to the repos.txt (or otherwise named) file. 
+Defaults to .github/repos.txt in the root of the repository.
+The file should include a single list
+of repository URLS, and (optionally) one or more comma separated tags:
+
+```
+https://github.com/spack/spack hpc,package-management
+https://github.com/singularityhub/sregistry containers,singularity
+```
+
+The filename path defaults to [.github/repos.txt](.github/repos.txt) and you
+can change this if desired.
+
+
+## Example usage
+
+```yaml
+uses: rseng/awesome-rseng@master
+with:
+  repos-file: '.github/repos.txt'
+  token: ${{ secrets.GITHUB_TOKEN }}
+```
+
+And you only need to define repos-file if you change the path. It's
+highly recommended that you don't use master branch, but instead
+a version release or commit.
 
 ## License
 

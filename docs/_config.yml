@@ -1,0 +1,28 @@
+# Setup
+title:        First Issues
+tagline:      ""
+baseurl:      "/awesome-rseng"
+github:       "https://github.com/rseng/awesome-rseng"
+
+# About/contact
+author:
+  name:       "@vsoch"
+  url:        https://rseng.github.io/awesome-rseng
+
+# Collections
+collections:
+    issues:
+      output: false
+      permalink: /:collection/:title/
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+#Others
+markdown: kramdown

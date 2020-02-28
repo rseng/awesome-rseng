@@ -1,0 +1,48 @@
+name: generate-first-issues
+
+on:
+  pull_request: []
+  schedule:
+    # Run every night
+    - cron: 0 0 * * *
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v1
+    - name: Generate First Issues
+      uses: rseng/awesome-rseng@b8c2ad60fa9d33331617b98dc7351695e7da253f
+      with:
+        repos-file: '.github/repos.txt'
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Checkout New Branch
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        echo "GitHub Actor: ${GITHUB_ACTOR}"
+        git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+        git branch
+        export BRANCH_FROM="update/update-first-issues-$(date '+%Y-%m-%d')"
+        git checkout -b ${BRANCH_FROM}
+        git branch
+
+        git config --global user.name "github-actions"
+        git config --global user.email "github-actions@users.noreply.github.com"
+
+        git add docs/*
+        git commit -m "Automated deployment to update first issues $(date '+%Y-%m-%d')" --allow-empty
+        git push origin ${BRANCH_FROM}
+    - name: Open pull request
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        BRANCH_AGAINST: "master"
+      run: |
+        export BRANCH_FROM="update/update-first-issues-$(date '+%Y-%m-%d')"
+        wget https://raw.githubusercontent.com/rseng/awesome-rseng/c134521acd9a313dc28f0c832e9aebabbf06bc04/.github/pull-request.sh
+        chmod +x ./pull-request.sh
+        /bin/bash -e ./pull-request.sh

@@ -1,0 +1,18 @@
+# action.yml
+name: 'Generate First Issues Interface'
+description: 'Create an interface for good first issues for a list of repos.'
+inputs:
+  repos-file:
+    description: 'The relative path in the repository for the repos.txt'
+    required: true
+    default: '.github/repos.txt'
+  token:
+    description: >
+      Auth token used to fetch the repository.
+    default: ${{ github.token }}
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  env:
+    REPOS_FILE: ${{ inputs.repos-file }}
+    GITHUB_TOKEN: ${{ inputs.token }}

@@ -20,9 +20,11 @@ If you want to get involved with science and research software engineering, this
  - [Geoscience](#geoscience)
  - [High Performance Computing](#high-performance-computing)
  - [Institutions](#institutions)
-   - [Academic Groups](#academic-groups) 
-   - [Academic Labs](#academic-labs) 
-   - [National Labs](#national-labs) 
+   - [Academic Groups](#academic-groups)
+   - [Academic Labs](#academic-labs)
+   - [National Labs](#national-labs)
+ - [Materials Science](#materials-science)
+   - [Neutron Scattering](#neutron-scattering)
  - [Neuroscience](#neuroscience)
  - [Psychology](#psychology)
  - [Reproducible Science](#reproducible-science)
@@ -78,6 +80,13 @@ and then subtopics. Please feel free to suggest a new project, or update the org
  - [BNL-SDCC](https://github.com/bnl-sdcc/) Brookhaven National Laboratory Scientific Data and Computing Center
  - [NSLS-II](https://github.com/NSLS-II) National Synchrotron Light Source II at Brookhaven National Laboratory
  - [BNL-NPP](https://github.com/BNLNPPS) Brookhaven National Laboratory Nuclear and Particle Physics Software Group
+
+## Materials Science
+
+### Neutron Scattering
+
+ - [Mantid Project](https://github.com/mantidproject) Framework for analysis and visualization of neutron scattering and muon spectroscopy data
+ - [neutrons](https://github.com/neutrons) Neutron Scattering Softwares, mainly for [ORNL Facilities](https://neutrons.ornl.gov/)
 
 ## Neuroscience
 

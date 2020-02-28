@@ -149,15 +149,25 @@ can change this if desired.
 ## Example usage
 
 ```yaml
-uses: rseng/awesome-rseng@master
-with:
-  repos-file: '.github/repos.txt'
-  token: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v1
+    - name: Generate First Issues
+      uses: rseng/awesome-rseng@ff385e1f162f0c395f59f1123fb2f17935d6496b
+      with:
+        repos-file: '.github/repos.txt'
+        token: ${{ secrets.GITHUB_TOKEN }}
 ```
 
-And you only need to define repos-file if you change the path. It's
+You only need to define repos-file if you change the path. It's
 highly recommended that you don't use master branch, but instead
-a version release or commit.
+a version release or commit (as shown above).
+
+You can look at the workflow in [.github/workflows](.github/workflows)
+for an example of running the action to generate content in docs,
+and then pushing to a new branch and opening a pull request to it.
+You can of course use different actions for opening the pull request,
+or some other method (e.g., push directly to a branch).
 
 ## License
 

@@ -1,6 +1,7 @@
 name: generate-first-issues
 
 on:
+  pull_request: []
   schedule:
     # Run every night
     - cron: 0 0 * * *
@@ -14,7 +15,7 @@ jobs:
     - name: Checkout Code
       uses: actions/checkout@v1
     - name: Generate First Issues
-      uses: rseng/awesome-rseng@b8c2ad60fa9d33331617b98dc7351695e7da253f
+      uses: rseng/good-first-issues@ca5e7cbe3266b0d40dcc381d447ba92752e63540
       with:
         repos-file: '.github/repos.txt'
         token: ${{ secrets.GITHUB_TOKEN }}

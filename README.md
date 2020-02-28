@@ -18,7 +18,9 @@ If you want to get involved with science and research software engineering, this
  - [Astrophysics](#astrophysics)
  - [Genomics](#genomics)
  - [Geoscience](#geoscience)
+ - [Health and Medicine](#health-and-medicine)
  - [High Performance Computing](#high-performance-computing)
+   - [Epidemiology](#epidemiology)
  - [Institutions](#institutions)
    - [Academic Groups](#academic-groups)
    - [Academic Labs](#academic-labs)
@@ -52,6 +54,15 @@ and then subtopics. Please feel free to suggest a new project, or update the org
 ## Geoscience
 
  - [Pangeo](https://github.com/pangeo-data): A community effort for big data geoscience
+
+## Health and Medicine
+
+### Epidemiology
+
+ - [MRC Centre for Outbreak Analysis and Modelling](https://github.com/mrc-ide/): open source software for the [MRC centre for global infectious disease analysis](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis)
+ - [VIMC](https://github.com/vimc/): open source code to support the [Vaccine Impact Modelling Consortium](https://vaccineimpact.org/).
+ - [Reside IC](https://github.com/reside-ic/): Research Software for the Infectious Disease Epidemiology @ Imperial College [team](https://reside-ic.github.io/about/).
+
 
 ## High Performance Computing
 

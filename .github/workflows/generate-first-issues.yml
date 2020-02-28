@@ -1,10 +1,9 @@
 name: generate-first-issues
 
 on:
-  pull_request: []
   schedule:
-    # Run every night
-    - cron: 0 0 * * *
+    # Nightly at 4:30am 
+    - cron: 30 4 * * *
 
 jobs:
   build:
@@ -13,9 +12,9 @@ jobs:
 
     steps:
     - name: Checkout Code
-      uses: actions/checkout@v1
+      uses: actions/checkout@v2
     - name: Generate First Issues
-      uses: rseng/good-first-issues@ca5e7cbe3266b0d40dcc381d447ba92752e63540
+      uses: rseng/good-first-issues@6690cf90ac6c412fab47ce09582f57bbc0909f11
       with:
         repos-file: '.github/repos.txt'
         token: ${{ secrets.GITHUB_TOKEN }}
@@ -35,6 +34,7 @@ jobs:
         git config --global user.email "github-actions@users.noreply.github.com"
 
         git add docs/*
+        git add docs/_issues/*
         git commit -m "Automated deployment to update first issues $(date '+%Y-%m-%d')" --allow-empty
         git push origin ${BRANCH_FROM}
     - name: Open pull request

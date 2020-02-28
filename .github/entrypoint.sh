@@ -14,4 +14,4 @@ printf "Cleaning up previous first issues...\n"
 rm -rf /github/workspace/docs/_issues
 
 # Generate first issues
-python /generate-first-issues.py
+python3 /generate-first-issues.py

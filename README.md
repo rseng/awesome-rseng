@@ -72,6 +72,12 @@ and then subtopics. Please feel free to suggest a new project, or update the org
 
  - [SLAC](https://github.com/slaclab) National Accelerator Laboratory
  - [LINAC Coherent Light Source](https://github.com/slac-lcls/) at SLAC for experiments with High Energy Physics, Materials Science, Biologists, etc.
+ - [ORNL](https://github.com/ORNL/) Oak Ridge National Laboratory
+ - [OLCF](https://github.com/OLCF/) Oak Ridge Leadership Computing Facility
+ - [BNL](https://github.com/BrookhavenNationalLaboratory/) Brookhaven National Laboratory
+ - [BNL-SDCC](https://github.com/bnl-sdcc/) Brookhaven National Laboratory Scientific Data and Computing Center
+ - [NSLS-II](https://github.com/NSLS-II) National Synchrotron Light Source II at Brookhaven National Laboratory
+ - [BNL-NPP](https://github.com/BNLNPPS) Brookhaven National Laboratory Nuclear and Particle Physics Software Group
 
 ## Neuroscience
 

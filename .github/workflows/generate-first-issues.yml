@@ -15,7 +15,7 @@ jobs:
     - name: Checkout Code
       uses: actions/checkout@v1
     - name: Generate First Issues
-      uses: rseng/awesome-rseng@ff385e1f162f0c395f59f1123fb2f17935d6496b
+      uses: rseng/awesome-rseng@b8c2ad60fa9d33331617b98dc7351695e7da253f
       with:
         repos-file: '.github/repos.txt'
         token: ${{ secrets.GITHUB_TOKEN }}

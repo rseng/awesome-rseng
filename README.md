@@ -20,9 +20,11 @@ If you want to get involved with science and research software engineering, this
  - [Geoscience](#geoscience)
  - [High Performance Computing](#high-performance-computing)
  - [Institutions](#institutions)
-   - [Academic Groups](#academic-groups) 
-   - [Academic Labs](#academic-labs) 
-   - [National Labs](#national-labs) 
+   - [Academic Groups](#academic-groups)
+   - [Academic Labs](#academic-labs)
+   - [National Labs](#national-labs)
+ - [Materials Science](#materials-science)
+   - [Neutron Scattering](#neutron-scattering)
  - [Neuroscience](#neuroscience)
  - [Psychology](#psychology)
  - [Reproducible Science](#reproducible-science)
@@ -72,6 +74,13 @@ and then subtopics. Please feel free to suggest a new project, or update the org
 
  - [SLAC](http://github.com/slaclab) National Accelerator Laboratory
  - [LINAC Coherent Light Source](https://github.com/slac-lcls/) at SLAC for experiments with High Energy Physics, Materials Science, Biologists, etc.
+
+## Materials Science
+
+### Neutron Scattering
+
+ - [Mantid Project](https://github.com/mantidproject) Framework for analysis and visualization of neutron scattering and muon spectroscopy data
+ - [neutrons](https://github.com/neutrons) Neutron Scattering Softwares, mainly for [ORNL Facilities](https://neutrons.ornl.gov/)
 
 ## Neuroscience
 

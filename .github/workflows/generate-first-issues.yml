@@ -27,21 +27,22 @@ jobs:
         echo "GitHub Actor: ${GITHUB_ACTOR}"
         git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
         git branch
-        git checkout -b update/member-count-$(date '+%Y-%m-%d')
+        export BRANCH_FROM="update/update-first-issues-$(date '+%Y-%m-%d')"
+        git checkout -b ${BRANCH_FROM}
         git branch
 
         git config --global user.name "github-actions"
         git config --global user.email "github-actions@users.noreply.github.com"
 
-        git add _data/memberCounts.csv
-        git commit -m "Automated deployment to update Member Counts $(date '+%Y-%m-%d')" --allow-empty
-        git push origin update/member-count-$(date '+%Y-%m-%d')
+        git add docs/*
+        git commit -m "Automated deployment to update first issues $(date '+%Y-%m-%d')" --allow-empty
+        git push origin ${BRANCH_FROM}
     - name: Open pull request
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH_AGAINST: "master"
       run: |
-          export BRANCH_FROM="update/member-count-$(date '+%Y-%m-%d')"
-          wget https://raw.githubusercontent.com/USRSE/usrse.github.io/71ae72c2a5524c502e0bb51c5ca764dd854eea18/scripts/pull-request.sh
+        export BRANCH_FROM="update/update-first-issues-$(date '+%Y-%m-%d')"
+        wget https://raw.githubusercontent.com/USRSE/usrse.github.io/71ae72c2a5524c502e0bb51c5ca764dd854eea18/scripts/pull-request.sh
           chmod +x ./pull-request.sh
           /bin/bash ./pull-request.sh

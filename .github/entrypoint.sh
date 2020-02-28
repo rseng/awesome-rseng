@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/bin/bash
 
 set -eu
 set -o pipefail
@@ -14,4 +14,4 @@ printf "Cleaning up previous first issues...\n"
 rm -rf /github/workspace/docs/_issues
 
 # Generate first issues
-python3 /generate-first-issues.py
+python /generate-first-issues.py

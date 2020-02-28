@@ -16,6 +16,7 @@ If you want to get involved with science and research software engineering, this
 
  - [Overview](#overview)
  - [Astrophysics](#astrophysics)
+ - [Environment](#environment)
  - [Genomics](#genomics)
  - [Geoscience](#geoscience)
  - [Health and Medicine](#health-and-medicine)
@@ -46,6 +47,10 @@ and then subtopics. Please feel free to suggest a new project, or update the org
 
  - [LSST](https://github.com/lsst) the legacy survey of space and time
  - [LSST Camera Data Handling](https://github.com/lsst-camera-dh/)
+
+## Environment
+
+ - [The National Capital Project](https://github.com/natcap): technology for people and nature, see [the website](https://naturalcapitalproject.stanford.edu/).
 
 ## Genomics
 

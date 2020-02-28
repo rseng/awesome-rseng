@@ -10,7 +10,7 @@
 
 > A curated list of GitHub organizations that primarily serve open source or academic software projects.
 
-If you want to get involved with science and research software engineering, this is a good place to start! If you want to use the GitHub action, [see below](#github-action).
+If you want to get involved with science and research software engineering, this is a good place to start! If you want to use the GitHub action, [see rseng/good-first-issues](https://github.com/rseng/good-first-issues).
 
 ## Contents
 
@@ -142,58 +142,6 @@ to identify the repository. Here is an example:
 ```
 https://github.com/singularityhub/sregistry containers,singularity
 ```
-
-## GitHub Action
-
-The repository serves it's own GitHub action to generate a web interface
-each night with an updated set of issues. This means that:
-
- - the interface is created under docs/
- - issues are populated in docs/_issues
- - the site is served via Jekyll
-
-This means that you can use the action in your workflows too.
-
-## Inputs
-
-### `repos-file`
-
-**Optional** The path to the repos.txt (or otherwise named) file. 
-Defaults to .github/repos.txt in the root of the repository.
-The file should include a single list
-of repository URLS, and (optionally) one or more comma separated tags:
-
-```
-https://github.com/spack/spack hpc,package-management
-https://github.com/singularityhub/sregistry containers,singularity
-```
-
-The filename path defaults to [.github/repos.txt](.github/repos.txt) and you
-can change this if desired.
-
-
-## Example usage
-
-```yaml
-    steps:
-    - name: Checkout Code
-      uses: actions/checkout@v1
-    - name: Generate First Issues
-      uses: rseng/awesome-rseng@ff385e1f162f0c395f59f1123fb2f17935d6496b
-      with:
-        repos-file: '.github/repos.txt'
-        token: ${{ secrets.GITHUB_TOKEN }}
-```
-
-You only need to define repos-file if you change the path. It's
-highly recommended that you don't use master branch, but instead
-a version release or commit (as shown above).
-
-You can look at the workflow in [.github/workflows](.github/workflows)
-for an example of running the action to generate content in docs,
-and then pushing to a new branch and opening a pull request to it.
-You can of course use different actions for opening the pull request,
-or some other method (e.g., push directly to a branch).
 
 ## License
 

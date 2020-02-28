@@ -1,7 +1,6 @@
 name: generate-first-issues
 
 on:
-  pull_request: []
   schedule:
     # Run every night
     - cron: 0 0 * * *

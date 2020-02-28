@@ -123,7 +123,7 @@ and then subtopics. Please feel free to suggest a new project, or update the org
 
 ## Contributing
 
-Please don't hesitate to contribute a new link. To do so, check out the [CONTRIBUTING.md](CONTRIBUTING.md) for details about how to contribute.
+Please don't hesitate to contribute a new link. To do so, check out the [CONTRIBUTING.md](.github/CONTRIBUTING.md) for details about how to contribute.
 
 ### Add Organization to the Awesome List
 The awesome list here is intended for organizations.

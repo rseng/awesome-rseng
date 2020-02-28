@@ -70,7 +70,7 @@ and then subtopics. Please feel free to suggest a new project, or update the org
 
 ### National Labs
 
- - [SLAC](http://github.com/slaclab) National Accelerator Laboratory
+ - [SLAC](https://github.com/slaclab) National Accelerator Laboratory
  - [LINAC Coherent Light Source](https://github.com/slac-lcls/) at SLAC for experiments with High Energy Physics, Materials Science, Biologists, etc.
 
 ## Neuroscience

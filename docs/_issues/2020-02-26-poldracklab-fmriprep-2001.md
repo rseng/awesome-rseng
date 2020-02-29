@@ -1,5 +1,5 @@
 ---
-tags: effort: low,bug,derivatives,impact: medium,neuroscience,python
+tags: impact  medium,derivatives,bug,effort  low,neuroscience,python
 title: "``dseg`` conversions should have integral data types"
 html_url: "https://github.com/poldracklab/fmriprep/issues/2001"
 user: oesteban

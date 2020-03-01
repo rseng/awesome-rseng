@@ -1,5 +1,5 @@
 ---
-tags: help wanted,feature,neuroscience,python
+tags: help-wanted,feature,neuroscience,python
 title: "Provide BOLD to T1w affine transform in the output folder"
 html_url: "https://github.com/poldracklab/fmriprep/issues/1184"
 user: gkaguirre

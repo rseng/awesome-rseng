@@ -1,5 +1,5 @@
 ---
-tags: impact  low,derivatives,optimization,effort  low,neuroscience,python
+tags: effort-low,derivatives,optimization,impact-low,neuroscience,python
 title: "``boldref`` conversions should have the same datatype of corresponding ``bold``"
 html_url: "https://github.com/poldracklab/fmriprep/issues/2000"
 user: oesteban

@@ -1,5 +1,5 @@
 ---
-tags: feature,help wanted,reports,group-level,neuroscience,python
+tags: reports,feature,group-level,help-wanted,neuroscience,python
 title: "[idea] Provide group level animation for checking coregistration"
 html_url: "https://github.com/poldracklab/fmriprep/issues/948"
 user: chrisgorgo

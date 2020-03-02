@@ -1,5 +1,5 @@
 ---
-tags: effortmedium,impactmedium,documentation,neuroscience,python
+tags: documentation,impactmedium,effortmedium,neuroscience,python
 title: "Ensure workflow docstrings include all inputnode/outputnode slots"
 html_url: "https://github.com/poldracklab/smriprep/issues/142"
 user: mgxd

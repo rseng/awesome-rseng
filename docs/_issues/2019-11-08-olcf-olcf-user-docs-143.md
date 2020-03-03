@@ -1,5 +1,5 @@
 ---
-tags: national-lab,documentation
+tags: documentation,national-lab
 title: "Add contributor guidance for (sub)section reST header syntax"
 html_url: "https://github.com/olcf/olcf-user-docs/issues/143"
 user: jack-morrison

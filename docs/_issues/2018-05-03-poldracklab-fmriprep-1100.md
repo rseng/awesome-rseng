@@ -1,5 +1,5 @@
 ---
-tags: optimization,memory,potential-hackathon-project,effort-low,impact-medium,neuroscience,python
+tags: effort-low,impact-medium,memory,neuroscience,optimization,potential-hackathon-project,python
 title: "Better estimate uncompressed file size"
 html_url: "https://github.com/poldracklab/fmriprep/issues/1100"
 user: effigies

@@ -18,30 +18,31 @@ jobs:
         repos-file: '.github/repos.txt'
         token: ${{ secrets.GITHUB_TOKEN }}
 
-    - name: Checkout New Branch
+    - name: Update Repository
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        UPDATE_BRANCH: "master"
       run: |
-        echo "GitHub Actor: ${GITHUB_ACTOR}"
+
+        printf "GitHub Actor: ${GITHUB_ACTOR}\n"
         git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
         git branch
-        export BRANCH_FROM="update/update-first-issues-$(date '+%Y-%m-%d')"
-        git checkout -b ${BRANCH_FROM}
+
+        printf "Branch to push to is ${UPDATE_BRANCH}\n"
+        git checkout ${UPDATE_BRANCH} || git checkout -b ${UPDATE_BRANCH}
         git branch
 
         git config --global user.name "github-actions"
         git config --global user.email "github-actions@users.noreply.github.com"
 
+        git pull origin ${UPDATE_BRANCH}
         git add docs/*
         git add docs/_issues/*
-        git commit -m "Automated deployment to update first issues $(date '+%Y-%m-%d')" --allow-empty
-        git push origin ${BRANCH_FROM}
-    - name: Open pull request
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        BRANCH_AGAINST: "master"
-      run: |
-        export BRANCH_FROM="update/update-first-issues-$(date '+%Y-%m-%d')"
-        wget https://raw.githubusercontent.com/rseng/awesome-rseng/c134521acd9a313dc28f0c832e9aebabbf06bc04/.github/pull-request.sh
-        chmod +x ./pull-request.sh
-        /bin/bash -e ./pull-request.sh
+
+        if git diff-index --quiet HEAD --; then
+           printf "No changes\n"
+        else
+           printf "Changes\n"
+           git commit -m "Automated deployment to update first issues $(date '+%Y-%m-%d')"
+           git push origin ${UPDATE_BRANCH}
+        fi

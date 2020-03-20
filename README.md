@@ -73,6 +73,7 @@ and then subtopics. Please feel free to suggest a new project, or update the org
 
  - [CEED](https://github.com/CEED): ECP Co-Design Center for Efficient Exascale Discretizations (CEED)
  - [spack](https://github.com/spack/) a flexible package manager for multiple versions, configurations, and compilers
+ - [RADIUSS](https://software.llnl.gov/radiuss/): Rapid Application Development via an Institutional Universal Software Stack
 
 ## Institutions
 
@@ -96,6 +97,7 @@ and then subtopics. Please feel free to suggest a new project, or update the org
  - [BNL-SDCC](https://github.com/bnl-sdcc/) Brookhaven National Laboratory Scientific Data and Computing Center
  - [NSLS-II](https://github.com/NSLS-II) National Synchrotron Light Source II at Brookhaven National Laboratory
  - [BNL-NPP](https://github.com/BNLNPPS) Brookhaven National Laboratory Nuclear and Particle Physics Software Group
+ - [LLNL](https://github.com/LLNL) Lawrence Livermore National Laboratory (and its [Software Portal](https://software.llnl.gov))
 
 ## Materials Science
 

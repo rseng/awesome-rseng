@@ -1,0 +1,13 @@
+name: Test URLs in README
+on: [pull_request]
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Actions Repository
+      uses: actions/checkout@v2
+    - name: Test GitHub Action
+      uses: urlstechie/urlchecker-action@0.1.7
+      with: 
+        file_types: .md

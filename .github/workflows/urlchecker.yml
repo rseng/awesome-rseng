@@ -1,8 +1,8 @@
-name: Test URLs in README
+name: URLChecker
 on: [pull_request]
 
 jobs:
-  run:
+  check-urls:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout Actions Repository
@@ -11,3 +11,4 @@ jobs:
       uses: urlstechie/urlchecker-action@0.1.7
       with: 
         file_types: .md
+        white_listed_files: docs

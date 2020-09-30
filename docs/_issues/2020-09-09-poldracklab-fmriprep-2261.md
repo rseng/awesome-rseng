@@ -1,7 +1,7 @@
 ---
 tags: UX,bug,container,neuroscience,python
 title: "set correct date and time in fmriprep-docker"
-html_url: "https://github.com/poldracklab/fmriprep/issues/2261"
+html_url: "https://github.com/nipreps/fmriprep/issues/2261"
 user: alistairwalsh
 repo: poldracklab/fmriprep
 ---

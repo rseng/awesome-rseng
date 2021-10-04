@@ -29,6 +29,7 @@ If you want to get involved with science and research software engineering, this
  - [Materials Science](#materials-science)
    - [Neutron Scattering](#neutron-scattering)
  - [Neuroscience](#neuroscience)
+ - [Probabilistic Programming](#probabilistic-programming)
  - [Psychology](#psychology)
  - [Reproducible Science](#reproducible-science)
    - [Containers](#containers)
@@ -111,6 +112,10 @@ and then subtopics. Please feel free to suggest a new project, or update the org
  - [nipreps](https://github.com/nipreps) standard workflows for processing a wide
    variety of neuroimaging (MRI) data.
  - [nipy](https://github.com/nipy) utilities for working with neuroimaging (MRI) data
+
+## Probabilistic Programming
+
+ - [The Turing Language](https://github.com/TuringLang) Bayesian inference with probabilistic programming using the Julia language
 
 ## Psychology
 

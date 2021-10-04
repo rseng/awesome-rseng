@@ -29,10 +29,12 @@ If you want to get involved with science and research software engineering, this
  - [Materials Science](#materials-science)
    - [Neutron Scattering](#neutron-scattering)
  - [Neuroscience](#neuroscience)
+ - [Probabilistic Programming](#probabilistic-programming)
  - [Psychology](#psychology)
  - [Reproducible Science](#reproducible-science)
    - [Containers](#containers)
    - [Workflows](#workflows)
+ - [Training](#training)
  - [Contributing](#contributing)
 
 
@@ -112,6 +114,10 @@ and then subtopics. Please feel free to suggest a new project, or update the org
    variety of neuroimaging (MRI) data.
  - [nipy](https://github.com/nipy) utilities for working with neuroimaging (MRI) data
 
+## Probabilistic Programming
+
+ - [The Turing Language](https://github.com/TuringLang) Bayesian inference with probabilistic programming using the Julia language
+
 ## Psychology
 
  - [The Experiment Factory](https://github.com/expfactory) tools, containers, and web based experiments
@@ -126,7 +132,10 @@ and then subtopics. Please feel free to suggest a new project, or update the org
 ## Workflows
 
  - [Snakemake](https://github.com/snakemake/) scientific workflow manager written in Python
+
+## Training
  
+ - [CarpenPi](https://github.com/CarpenPi) Running Carpentries Training on Raspberry Pis
 
 ## Contributing
 

@@ -34,6 +34,7 @@ If you want to get involved with science and research software engineering, this
  - [Reproducible Science](#reproducible-science)
    - [Containers](#containers)
    - [Workflows](#workflows)
+ - [Training](#training)
  - [Contributing](#contributing)
 
 
@@ -131,7 +132,10 @@ and then subtopics. Please feel free to suggest a new project, or update the org
 ## Workflows
 
  - [Snakemake](https://github.com/snakemake/) scientific workflow manager written in Python
+
+## Training
  
+ - [CarpenPi](https://github.com/CarpenPi) Running Carpentries Training on Raspberry Pis
 
 ## Contributing
 

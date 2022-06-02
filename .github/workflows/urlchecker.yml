@@ -8,7 +8,7 @@ jobs:
     - name: Checkout Actions Repository
       uses: actions/checkout@v2
     - name: Test GitHub Action
-      uses: urlstechie/urlchecker-action@0.1.7
+      uses: urlstechie/urlchecker-action@0.0.27
       with: 
         file_types: .md
         white_listed_files: docs
